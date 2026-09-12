@@ -7,7 +7,7 @@ A static dashboard you bookmark and open every day, showing:
 
 All prices are shown in USD with their MAD equivalent alongside. Gains are green, losses are red.
 
-A GitHub Actions workflow refreshes the data once a day (or on demand) and commits
+A GitHub Actions workflow refreshes the data every 3 hours (or on demand) and commits
 `docs/digest.json`; the static page at `docs/index.html` fetches that file and renders it.
 GitHub Pages serves `docs/` as your dashboard URL.
 
@@ -22,12 +22,12 @@ GitHub Pages serves `docs/` as your dashboard URL.
    `https://<your-username>.github.io/<repo-name>/` — bookmark it.
 
 3. **Run the workflow once** to generate the first `docs/digest.json`: Actions tab →
-   "Daily Markets Digest" → "Run workflow". Wait ~30 seconds, then refresh your
+   "Markets Digest" → "Run workflow". Wait ~30 seconds, then refresh your
    dashboard URL.
 
-4. **It now updates automatically** every day at 07:00 UTC (edit the `cron` line in
-   `.github/workflows/daily-digest.yml` to change the time — cron times are always
-   UTC, so subtract/add for Morocco time depending on DST).
+4. **It now updates automatically every 3 hours** (edit the `cron` line in
+   `.github/workflows/daily-digest.yml` to change the interval — cron times are
+   always UTC).
 
 No secrets or API keys are needed — every data source used is free and keyless.
 

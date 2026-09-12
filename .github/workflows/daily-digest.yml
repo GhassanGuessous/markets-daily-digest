@@ -1,10 +1,11 @@
-name: Daily Markets Digest
+name: Markets Digest
 
 on:
   schedule:
-    # 07:00 UTC ≈ 08:00 Morocco time (Morocco is UTC+0/+1 depending on DST rules).
-    # Adjust the hour below if you want it earlier/later locally.
-    - cron: "0 7 * * *"
+    # Every 3 hours. GitHub Actions cron is best-effort and can lag a few
+    # minutes at peak load, but this stays well within the free-tier minutes
+    # (8 runs/day * well under a minute each).
+    - cron: "0 */3 * * *"
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab to test
 
 permissions:
