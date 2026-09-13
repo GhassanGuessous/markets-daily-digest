@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:41:06.051457+00:00",
+  "generated_at": "2026-09-13T17:45:25.771032+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
@@ -51,19 +51,19 @@
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 76684.99,
+      "price": 77251.03,
       "currency": "USD",
-      "usd": 76684.99,
-      "mad": 720340.45,
-      "pct": -0.76
+      "usd": 77251.03,
+      "mad": 725657.55,
+      "pct": -0.03
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2472.7,
+      "price": 2503.11,
       "currency": "USD",
-      "usd": 2472.7,
-      "mad": 23227.31,
-      "pct": -2.11
+      "usd": 2503.11,
+      "mad": 23512.96,
+      "pct": -0.9
     }
   ],
   "fx": {
