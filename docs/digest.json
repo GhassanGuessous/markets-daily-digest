@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:30:19.459918+00:00",
+  "generated_at": "2026-09-13T13:41:06.051457+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
@@ -18,12 +18,20 @@
       "pct": -2.37
     },
     {
-      "name": "Gold (Spot)",
-      "price": 4408.9,
+      "name": "Gold (per gram)",
+      "price": 141.75,
       "currency": "USD",
-      "usd": 4408.9,
-      "mad": 41415.0,
+      "usd": 141.75,
+      "mad": 1331.53,
       "pct": 1.02
+    },
+    {
+      "name": "Silver (per gram)",
+      "price": 2.1,
+      "currency": "USD",
+      "usd": 2.1,
+      "mad": 19.73,
+      "pct": 1.41
     },
     {
       "name": "S&P 500",
@@ -32,14 +40,6 @@
       "usd": 7656.98,
       "mad": 71925.84,
       "pct": 0.86
-    },
-    {
-      "name": "Nasdaq Composite",
-      "price": 26333.04,
-      "currency": "USD",
-      "usd": 26333.04,
-      "mad": 247359.41,
-      "pct": 0.96
     },
     {
       "name": "CAC 40",
@@ -51,19 +51,19 @@
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 76542.26,
+      "price": 76684.99,
       "currency": "USD",
-      "usd": 76542.26,
-      "mad": 718999.72,
-      "pct": -0.94
+      "usd": 76684.99,
+      "mad": 720340.45,
+      "pct": -0.76
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2466.92,
+      "price": 2472.7,
       "currency": "USD",
-      "usd": 2466.92,
-      "mad": 23173.01,
-      "pct": -2.34
+      "usd": 2472.7,
+      "mad": 23227.31,
+      "pct": -2.11
     }
   ],
   "fx": {
@@ -73,13 +73,13 @@
   "masi": [
     {
       "name": "MASI",
-      "mad": null,
-      "pct": null
+      "mad": 18615.24,
+      "pct": -0.91
     },
     {
       "name": "MASI 20",
-      "mad": null,
-      "pct": null
+      "mad": 1339.95,
+      "pct": -0.97
     }
   ]
 }
