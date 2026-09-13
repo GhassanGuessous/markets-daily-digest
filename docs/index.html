@@ -51,22 +51,25 @@
   }
   .row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
     padding: 12px 16px;
     border-bottom: 1px solid var(--border);
   }
   .row:last-child { border-bottom: none; }
-  .name { font-weight: 500; }
-  .prices { text-align: right; }
+  .name { flex: 1 1 auto; min-width: 0; font-weight: 500; }
+  .prices { flex: 0 0 140px; text-align: center; }
   .price-usd { font-variant-numeric: tabular-nums; }
   .price-mad { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
   .pct {
-    min-width: 84px;
+    flex: 0 0 84px;
     text-align: right;
     font-weight: 600;
     font-variant-numeric: tabular-nums;
+  }
+  @media (max-width: 480px) {
+    .prices { flex-basis: 108px; }
+    .pct { flex-basis: 68px; font-size: 0.85rem; }
   }
   .pct.up { color: var(--green); }
   .pct.down { color: var(--red); }
@@ -108,6 +111,7 @@ function renderGlobalRow(item) {
     return `<div class="row">
       <div class="name">${item.name}</div>
       <div class="prices"><span class="price-usd">data unavailable</span></div>
+      <div class="pct"></div>
     </div>`;
   }
   return `<div class="row">
@@ -124,6 +128,7 @@ function renderFxRow(pair, rate) {
   return `<div class="row">
     <div class="name">${pair}</div>
     <div class="prices"><span class="price-usd">${rate === null ? 'data unavailable' : rate}</span></div>
+    <div class="pct"></div>
   </div>`;
 }
 
@@ -132,6 +137,7 @@ function renderMasiRow(item) {
     return `<div class="row">
       <div class="name">${item.name} (Casablanca)</div>
       <div class="prices"><span class="price-usd">unavailable</span></div>
+      <div class="pct"></div>
     </div>`;
   }
   return `<div class="row">

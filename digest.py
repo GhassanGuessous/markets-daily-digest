@@ -27,13 +27,17 @@ DIGEST_JSON_PATH = "docs/digest.json"
 YFINANCE_TICKERS = {
     "Brent Crude Oil": ("BZ=F", "USD"),
     "WTI Crude Oil": ("CL=F", "USD"),
-    "Gold (Spot)": ("GC=F", "USD"),
+    "Gold (per gram)": ("GC=F", "USD"),
+    "Silver (per gram)": ("SI=F", "USD"),
     "S&P 500": ("^GSPC", "USD"),
-    "Nasdaq Composite": ("^IXIC", "USD"),
     "CAC 40": ("^FCHI", "EUR"),
     "Bitcoin (BTC)": ("BTC-USD", "USD"),
     "Ethereum (ETH)": ("ETH-USD", "USD"),
 }
+
+# Gold/silver futures (GC=F, SI=F) quote USD per troy ounce; convert to grams.
+PER_GRAM_TICKERS = {"Gold (per gram)", "Silver (per gram)"}
+TROY_OUNCE_GRAMS = 31.1034768
 
 FX_PAIRS = [("USD", "MAD"), ("EUR", "MAD")]
 
@@ -72,7 +76,8 @@ def fetch_yfinance_quotes():
             last_close = hist["Close"].iloc[-1]
             prev_close = hist["Close"].iloc[-2]
             pct = (last_close - prev_close) / prev_close * 100
-            results[name] = (round(last_close, 2), round(pct, 2), currency)
+            price = last_close / TROY_OUNCE_GRAMS if name in PER_GRAM_TICKERS else last_close
+            results[name] = (round(price, 2), round(pct, 2), currency)
         except Exception as e:
             print(f"[warn] failed to fetch {name} ({symbol}): {e}")
             results[name] = (None, None, currency)
@@ -233,14 +238,53 @@ def write_digest_json(data, path=DIGEST_JSON_PATH):
         json.dump(data, f, indent=2)
 
 
+def load_previous_digest(path=DIGEST_JSON_PATH):
+    """Load the last successfully written digest, if any, to fall back on."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+
+def fill_missing_from_previous(quotes, fx, masi_indexes, previous):
+    """
+    Carry forward the last known value for anything that failed to fetch this
+    run, instead of showing it as unavailable.
+    """
+    if not previous:
+        return
+
+    prev_quotes = {row["name"]: row for row in previous.get("global", [])}
+    for name, (price, _pct, currency) in quotes.items():
+        prev = prev_quotes.get(name)
+        if price is None and prev and prev.get("price") is not None:
+            quotes[name] = (prev["price"], prev["pct"], currency)
+
+    prev_fx = previous.get("fx", {})
+    for pair, rate in fx.items():
+        if rate is None and prev_fx.get(pair) is not None:
+            fx[pair] = prev_fx[pair]
+
+    prev_masi = {row["name"]: row for row in previous.get("masi", [])}
+    for name, (value, _pct) in masi_indexes.items():
+        prev = prev_masi.get(name)
+        if value is None and prev and prev.get("mad") is not None:
+            masi_indexes[name] = (prev["mad"], prev.get("pct"))
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main():
+    previous = load_previous_digest()
+
     quotes = fetch_yfinance_quotes()
     fx = fetch_fx_rates()
     masi_indexes = fetch_masi_indexes()
+
+    fill_missing_from_previous(quotes, fx, masi_indexes, previous)
 
     print(format_digest(quotes, fx, masi_indexes))  # visible in GitHub Actions logs
 
