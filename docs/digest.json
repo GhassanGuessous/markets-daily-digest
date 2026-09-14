@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-14T08:09:48.082880+00:00",
+  "generated_at": "2026-09-14T15:18:47.549892+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 107.71,
+      "price": 107.76,
       "currency": "USD",
-      "usd": 107.71,
-      "mad": 1012.81,
-      "pct": 2.96
+      "usd": 107.76,
+      "mad": 1013.28,
+      "pct": 3.01
     },
     {
       "name": "WTI Crude Oil",
-      "price": 102.73,
+      "price": 102.77,
       "currency": "USD",
-      "usd": 102.73,
-      "mad": 965.98,
-      "pct": 2.68
+      "usd": 102.77,
+      "mad": 966.36,
+      "pct": 2.72
     },
     {
       "name": "Gold (per gram)",
-      "price": 139.88,
+      "price": 138.97,
       "currency": "USD",
-      "usd": 139.88,
-      "mad": 1315.31,
-      "pct": -0.35
+      "usd": 138.97,
+      "mad": 1306.75,
+      "pct": -1.01
     },
     {
       "name": "Silver (per gram)",
@@ -31,39 +31,39 @@
       "currency": "USD",
       "usd": 2.05,
       "mad": 19.28,
-      "pct": -1.18
+      "pct": -1.45
     },
     {
       "name": "S&P 500",
-      "price": 7656.98,
+      "price": 7603.69,
       "currency": "USD",
-      "usd": 7656.98,
-      "mad": 71999.35,
-      "pct": 0.86
+      "usd": 7603.69,
+      "mad": 71498.26,
+      "pct": -0.7
     },
     {
       "name": "CAC 40",
-      "price": 8125.53,
+      "price": 8092.07,
       "currency": "EUR",
-      "usd": 9422.25,
-      "mad": 88598.34,
-      "pct": -0.66
+      "usd": 9383.45,
+      "mad": 88233.5,
+      "pct": -1.07
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 77774.77,
+      "price": 78509.58,
       "currency": "USD",
-      "usd": 77774.77,
-      "mad": 731323.94,
-      "pct": 1.22
+      "usd": 78509.58,
+      "mad": 738233.43,
+      "pct": 2.18
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2521.46,
+      "price": 2504.19,
       "currency": "USD",
-      "usd": 2521.46,
-      "mad": 23709.54,
-      "pct": 1.79
+      "usd": 2504.19,
+      "mad": 23547.15,
+      "pct": 1.1
     }
   ],
   "fx": {
