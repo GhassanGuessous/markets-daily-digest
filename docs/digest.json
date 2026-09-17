@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-17T13:50:40.467702+00:00",
+  "generated_at": "2026-09-17T18:39:00.650461+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 103.27,
+      "price": 104.78,
       "currency": "USD",
-      "usd": 103.27,
-      "mad": 976.89,
-      "pct": -2.42
+      "usd": 104.78,
+      "mad": 991.18,
+      "pct": -0.99
     },
     {
       "name": "WTI Crude Oil",
-      "price": 100.93,
+      "price": 101.88,
       "currency": "USD",
-      "usd": 100.93,
-      "mad": 954.76,
-      "pct": -1.46
+      "usd": 101.88,
+      "mad": 963.74,
+      "pct": -0.54
     },
     {
       "name": "Gold (per gram)",
-      "price": 141.51,
+      "price": 141.4,
       "currency": "USD",
-      "usd": 141.51,
-      "mad": 1338.63,
-      "pct": 0.31
+      "usd": 141.4,
+      "mad": 1337.59,
+      "pct": 0.24
     },
     {
       "name": "Silver (per gram)",
@@ -31,38 +31,38 @@
       "currency": "USD",
       "usd": 2.12,
       "mad": 20.05,
-      "pct": 2.45
+      "pct": 2.75
     },
     {
       "name": "S&P 500",
-      "price": 7626.38,
+      "price": 7633.73,
       "currency": "USD",
-      "usd": 7626.38,
-      "mad": 72142.5,
-      "pct": 0.99
+      "usd": 7633.73,
+      "mad": 72212.03,
+      "pct": 1.08
     },
     {
       "name": "CAC 40",
-      "price": 8186.63,
+      "price": 8186.93,
       "currency": "EUR",
-      "usd": 9442.8,
-      "mad": 89325.14,
+      "usd": 9443.15,
+      "mad": 89328.41,
       "pct": 0.57
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 76338.88,
+      "price": 76475.28,
       "currency": "USD",
-      "usd": 76338.88,
-      "mad": 722135.27,
-      "pct": 0.25
+      "usd": 76475.28,
+      "mad": 723425.56,
+      "pct": 0.43
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2449.34,
+      "price": 2449.23,
       "currency": "USD",
-      "usd": 2449.34,
-      "mad": 23169.78,
+      "usd": 2449.23,
+      "mad": 23168.74,
       "pct": 1.37
     }
   ],
