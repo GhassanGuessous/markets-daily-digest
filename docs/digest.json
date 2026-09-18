@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-09-18T17:55:58.712266+00:00",
+  "generated_at": "2026-09-18T20:06:50.281267+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 99.16,
+      "price": 98.89,
       "currency": "USD",
-      "usd": 99.16,
-      "mad": 941.04,
-      "pct": -5.4
-    },
-    {
-      "name": "WTI Crude Oil",
-      "price": 96.14,
-      "currency": "USD",
-      "usd": 96.14,
-      "mad": 912.38,
+      "usd": 98.89,
+      "mad": 938.48,
       "pct": -5.66
     },
     {
-      "name": "Gold (per gram)",
-      "price": 142.47,
+      "name": "WTI Crude Oil",
+      "price": 95.68,
       "currency": "USD",
-      "usd": 142.47,
-      "mad": 1352.05,
-      "pct": 0.72
+      "usd": 95.68,
+      "mad": 908.01,
+      "pct": -6.11
+    },
+    {
+      "name": "Gold (per gram)",
+      "price": 141.92,
+      "currency": "USD",
+      "usd": 141.92,
+      "mad": 1346.83,
+      "pct": 0.33
     },
     {
       "name": "Silver (per gram)",
-      "price": 2.16,
+      "price": 2.15,
       "currency": "USD",
-      "usd": 2.16,
-      "mad": 20.5,
-      "pct": 2.72
+      "usd": 2.15,
+      "mad": 20.4,
+      "pct": 2.03
     },
     {
       "name": "S&P 500",
-      "price": 7628.33,
+      "price": 7650.5,
       "currency": "USD",
-      "usd": 7628.33,
-      "mad": 72393.61,
-      "pct": -0.12
+      "usd": 7650.5,
+      "mad": 72604.01,
+      "pct": 0.17
     },
     {
       "name": "CAC 40",
@@ -51,19 +51,19 @@
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 80897.26,
+      "price": 81086.93,
       "currency": "USD",
-      "usd": 80897.26,
-      "mad": 767723.09,
-      "pct": 5.88
+      "usd": 81086.93,
+      "mad": 769523.07,
+      "pct": 6.13
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2604.6,
+      "price": 2631.39,
       "currency": "USD",
-      "usd": 2604.6,
-      "mad": 24717.91,
-      "pct": 6.44
+      "usd": 2631.39,
+      "mad": 24972.15,
+      "pct": 7.53
     }
   ],
   "fx": {
