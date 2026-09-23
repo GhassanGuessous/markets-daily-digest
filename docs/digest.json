@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-23T18:42:23.600383+00:00",
+  "generated_at": "2026-09-23T23:15:52.532299+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 98.55,
+      "price": 97.86,
       "currency": "USD",
-      "usd": 98.55,
-      "mad": 940.91,
-      "pct": -0.71
+      "usd": 97.86,
+      "mad": 934.32,
+      "pct": -1.4
     },
     {
       "name": "WTI Crude Oil",
-      "price": 92.55,
+      "price": 92.22,
       "currency": "USD",
-      "usd": 92.55,
-      "mad": 883.62,
-      "pct": -2.16
+      "usd": 92.22,
+      "mad": 880.47,
+      "pct": -2.51
     },
     {
       "name": "Gold (per gram)",
-      "price": 138.97,
+      "price": 139.07,
       "currency": "USD",
-      "usd": 138.97,
-      "mad": 1326.82,
-      "pct": -1.23
+      "usd": 139.07,
+      "mad": 1327.77,
+      "pct": -1.16
     },
     {
       "name": "Silver (per gram)",
@@ -31,39 +31,39 @@
       "currency": "USD",
       "usd": 2.09,
       "mad": 19.95,
-      "pct": -1.38
+      "pct": -1.53
     },
     {
       "name": "S&P 500",
-      "price": 7708.85,
+      "price": 7706.03,
       "currency": "USD",
-      "usd": 7708.85,
-      "mad": 73600.25,
-      "pct": -0.72
+      "usd": 7706.03,
+      "mad": 73573.32,
+      "pct": -0.76
     },
     {
       "name": "CAC 40",
-      "price": 8123.41,
+      "price": 8138.94,
       "currency": "EUR",
-      "usd": 9314.42,
-      "mad": 88929.41,
-      "pct": -0.19
+      "usd": 9332.22,
+      "mad": 89099.42,
+      "pct": 0.92
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 84154.01,
+      "price": 84478.45,
       "currency": "USD",
-      "usd": 84154.01,
-      "mad": 803460.41,
-      "pct": -2.34
+      "usd": 84478.45,
+      "mad": 806558.0,
+      "pct": -1.97
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2660.28,
+      "price": 2685.33,
       "currency": "USD",
-      "usd": 2660.28,
-      "mad": 25399.02,
-      "pct": -3.36
+      "usd": 2685.33,
+      "mad": 25638.19,
+      "pct": -2.45
     }
   ],
   "fx": {
