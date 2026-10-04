@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:02:29.793969+00:00",
+  "generated_at": "2026-10-04T11:24:11.378738+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
@@ -27,11 +27,11 @@
     },
     {
       "name": "Silver (per gram)",
-      "price": 1.93,
+      "price": 1.94,
       "currency": "USD",
-      "usd": 1.93,
-      "mad": 19.04,
-      "pct": -1.23
+      "usd": 1.94,
+      "mad": 19.14,
+      "pct": -0.51
     },
     {
       "name": "S&P 500",
@@ -51,19 +51,19 @@
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 84789.35,
+      "price": 85272.75,
       "currency": "USD",
-      "usd": 84789.35,
-      "mad": 836396.06,
-      "pct": 0.35
+      "usd": 85272.75,
+      "mad": 841164.52,
+      "pct": 0.6
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2691.93,
+      "price": 2702.61,
       "currency": "USD",
-      "usd": 2691.93,
-      "mad": 26554.27,
-      "pct": 0.89
+      "usd": 2702.61,
+      "mad": 26659.63,
+      "pct": 0.57
     }
   ],
   "fx": {
