@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-09T21:55:19.385618+00:00",
+  "generated_at": "2026-10-10T02:57:07.633748+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
       "price": 104.43,
       "currency": "USD",
       "usd": 104.43,
-      "mad": 1037.75,
+      "mad": 1039.17,
       "pct": 0.14
     },
     {
@@ -14,7 +14,7 @@
       "price": 91.66,
       "currency": "USD",
       "usd": 91.66,
-      "mad": 910.85,
+      "mad": 912.1,
       "pct": 0.19
     },
     {
@@ -22,7 +22,7 @@
       "price": 135.69,
       "currency": "USD",
       "usd": 135.69,
-      "mad": 1348.39,
+      "mad": 1350.24,
       "pct": 1.52
     },
     {
@@ -30,7 +30,7 @@
       "price": 1.96,
       "currency": "USD",
       "usd": 1.96,
-      "mad": 19.48,
+      "mad": 19.5,
       "pct": 3.46
     },
     {
@@ -38,37 +38,37 @@
       "price": 7811.54,
       "currency": "USD",
       "usd": 7811.54,
-      "mad": 77625.62,
+      "mad": 77731.85,
       "pct": 0.59
     },
     {
       "name": "CAC 40",
       "price": 7803.33,
       "currency": "EUR",
-      "usd": 8733.7,
-      "mad": 86789.42,
+      "usd": 8583.44,
+      "mad": 85412.91,
       "pct": 0.95
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 82461.06,
+      "price": 82548.1,
       "currency": "USD",
-      "usd": 82461.06,
-      "mad": 819440.29,
-      "pct": 0.96
+      "usd": 82548.1,
+      "mad": 821427.89,
+      "pct": 1.07
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2482.0,
+      "price": 2489.78,
       "currency": "USD",
-      "usd": 2482.0,
-      "mad": 24664.38,
-      "pct": 0.41
+      "usd": 2489.78,
+      "mad": 24775.55,
+      "pct": 0.72
     }
   ],
   "fx": {
-    "USD/MAD": 9.9373,
-    "EUR/MAD": 11.1221
+    "USD/MAD": 9.9509,
+    "EUR/MAD": 10.9457
   },
   "masi": [
     {
