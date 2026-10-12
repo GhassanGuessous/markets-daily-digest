@@ -1,74 +1,74 @@
 {
-  "generated_at": "2026-10-11T21:07:50.133984+00:00",
+  "generated_at": "2026-10-12T02:51:00.400622+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 104.72,
+      "price": 103.09,
       "currency": "USD",
-      "usd": 104.72,
-      "mad": 1035.12,
-      "pct": 0.42
+      "usd": 103.09,
+      "mad": 1012.09,
+      "pct": -1.56
     },
     {
       "name": "WTI Crude Oil",
-      "price": 91.85,
+      "price": 90.15,
       "currency": "USD",
-      "usd": 91.85,
-      "mad": 907.9,
-      "pct": 0.39
+      "usd": 90.15,
+      "mad": 885.05,
+      "pct": -1.85
     },
     {
       "name": "Gold (per gram)",
-      "price": 135.56,
+      "price": 136.09,
       "currency": "USD",
-      "usd": 135.56,
-      "mad": 1339.96,
-      "pct": 1.43
+      "usd": 136.09,
+      "mad": 1336.06,
+      "pct": 0.4
     },
     {
       "name": "Silver (per gram)",
-      "price": 1.96,
+      "price": 1.98,
       "currency": "USD",
-      "usd": 1.96,
-      "mad": 19.37,
-      "pct": 3.36
+      "usd": 1.98,
+      "mad": 19.44,
+      "pct": 1.43
     },
     {
       "name": "S&P 500",
       "price": 7811.54,
       "currency": "USD",
       "usd": 7811.54,
-      "mad": 77213.95,
+      "mad": 76689.79,
       "pct": 0.59
     },
     {
       "name": "CAC 40",
       "price": 7803.33,
       "currency": "EUR",
-      "usd": 8654.59,
-      "mad": 85547.13,
+      "usd": 8740.84,
+      "mad": 85813.22,
       "pct": 0.95
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 83515.88,
+      "price": 83713.55,
       "currency": "USD",
-      "usd": 83515.88,
-      "mad": 825521.07,
-      "pct": 0.73
+      "usd": 83713.55,
+      "mad": 821857.78,
+      "pct": 0.97
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2532.23,
+      "price": 2544.83,
       "currency": "USD",
-      "usd": 2532.23,
-      "mad": 25030.08,
-      "pct": 1.13
+      "usd": 2544.83,
+      "mad": 24983.87,
+      "pct": 1.63
     }
   ],
   "fx": {
-    "USD/MAD": 9.8846,
-    "EUR/MAD": 10.9629
+    "USD/MAD": 9.8175,
+    "EUR/MAD": 10.997
   },
   "masi": [
     {
