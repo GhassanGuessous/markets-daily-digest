@@ -10,9 +10,12 @@ which commits the refreshed docs/digest.json so GitHub Pages serves the latest d
 """
 
 import json
+import os
 import re
+import tempfile
 from datetime import datetime, timezone
 
+import certifi
 import requests
 import yfinance as yf
 from bs4 import BeautifulSoup
@@ -111,6 +114,26 @@ def fetch_fx_rates():
 
 MASI_INDEXES = ["MASI", "MASI 20"]
 
+# casablanca-bourse.com serves only its leaf certificate without the Sectigo
+# intermediate. Browsers and macOS fetch the missing intermediate on their own,
+# but certifi/OpenSSL on Linux (GitHub Actions) don't, so verification fails.
+# We append the public intermediate to certifi's roots for this one request.
+SECTIGO_INTERMEDIATE_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "certs", "sectigo-dv-r36.pem"
+)
+
+
+def casablanca_ca_bundle():
+    """Return a path to certifi's CA bundle plus the Sectigo intermediate."""
+    with open(certifi.where()) as f:
+        roots = f.read()
+    with open(SECTIGO_INTERMEDIATE_PATH) as f:
+        intermediate = f.read()
+    bundle = tempfile.NamedTemporaryFile("w", suffix=".pem", delete=False)
+    with bundle:
+        bundle.write(roots + "\n" + intermediate)
+    return bundle.name
+
 
 def fetch_masi_indexes():
     """
@@ -129,6 +152,7 @@ def fetch_masi_indexes():
         resp = requests.get(
             "https://www.casablanca-bourse.com/",
             timeout=10,
+            verify=casablanca_ca_bundle(),
             headers={
                 # The site's WAF rejects bare "Mozilla/5.0" user agents; it
                 # needs a full, realistic browser-like header set.
