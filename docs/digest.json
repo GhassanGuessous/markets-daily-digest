@@ -1,69 +1,69 @@
 {
-  "generated_at": "2026-10-23T18:46:14.393143+00:00",
+  "generated_at": "2026-10-23T23:36:38.037351+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 111.51,
+      "price": 111.66,
       "currency": "USD",
-      "usd": 111.51,
-      "mad": 1093.98,
-      "pct": -1.47
+      "usd": 111.66,
+      "mad": 1095.45,
+      "pct": -1.33
     },
     {
       "name": "WTI Crude Oil",
-      "price": 103.12,
+      "price": 103.44,
       "currency": "USD",
-      "usd": 103.12,
-      "mad": 1011.67,
-      "pct": 3.67
+      "usd": 103.44,
+      "mad": 1014.81,
+      "pct": 3.99
     },
     {
       "name": "Gold (per gram)",
-      "price": 129.08,
+      "price": 128.92,
       "currency": "USD",
-      "usd": 129.08,
-      "mad": 1266.35,
-      "pct": -1.12
+      "usd": 128.92,
+      "mad": 1264.78,
+      "pct": -1.24
     },
     {
       "name": "Silver (per gram)",
-      "price": 1.74,
+      "price": 1.73,
       "currency": "USD",
-      "usd": 1.74,
-      "mad": 17.07,
-      "pct": -1.15
+      "usd": 1.73,
+      "mad": 16.97,
+      "pct": -1.47
     },
     {
       "name": "S&P 500",
-      "price": 7628.63,
+      "price": 7623.68,
       "currency": "USD",
-      "usd": 7628.63,
-      "mad": 74841.44,
-      "pct": -0.45
+      "usd": 7623.68,
+      "mad": 74792.88,
+      "pct": -0.52
     },
     {
       "name": "CAC 40",
-      "price": 7782.82,
+      "price": 7811.26,
       "currency": "EUR",
-      "usd": 8725.9,
-      "mad": 85606.35,
-      "pct": -0.36
+      "usd": 8757.79,
+      "mad": 85919.17,
+      "pct": -1.39
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 81350.08,
+      "price": 80835.1,
       "currency": "USD",
-      "usd": 81350.08,
-      "mad": 798093.09,
-      "pct": 0.05
+      "usd": 80835.1,
+      "mad": 793040.83,
+      "pct": -0.59
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2399.7,
+      "price": 2374.5,
       "currency": "USD",
-      "usd": 2399.7,
-      "mad": 23542.5,
-      "pct": 0.57
+      "usd": 2374.5,
+      "mad": 23295.27,
+      "pct": -0.49
     }
   ],
   "fx": {
