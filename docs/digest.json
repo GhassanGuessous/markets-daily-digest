@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-26T01:57:47.984795+00:00",
+  "generated_at": "2026-10-26T08:11:28.564421+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 110.31,
+      "price": 110.3,
       "currency": "USD",
-      "usd": 110.31,
-      "mad": 1082.73,
-      "pct": -5.49
+      "usd": 110.3,
+      "mad": 1082.63,
+      "pct": -5.5
     },
     {
       "name": "WTI Crude Oil",
-      "price": 101.64,
+      "price": 101.51,
       "currency": "USD",
-      "usd": 101.64,
-      "mad": 997.63,
-      "pct": -1.58
+      "usd": 101.51,
+      "mad": 996.35,
+      "pct": -1.7
     },
     {
       "name": "Gold (per gram)",
-      "price": 128.54,
+      "price": 129.39,
       "currency": "USD",
-      "usd": 128.54,
-      "mad": 1261.66,
-      "pct": -0.25
+      "usd": 129.39,
+      "mad": 1270.0,
+      "pct": 0.41
     },
     {
       "name": "Silver (per gram)",
-      "price": 1.73,
+      "price": 1.74,
       "currency": "USD",
-      "usd": 1.73,
-      "mad": 16.98,
-      "pct": -0.03
+      "usd": 1.74,
+      "mad": 17.08,
+      "pct": 0.69
     },
     {
       "name": "S&P 500",
@@ -51,19 +51,19 @@
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 79641.35,
+      "price": 79562.05,
       "currency": "USD",
-      "usd": 79641.35,
-      "mad": 781703.74,
-      "pct": -1.42
+      "usd": 79562.05,
+      "mad": 780925.39,
+      "pct": -0.58
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2312.86,
+      "price": 2301.57,
       "currency": "USD",
-      "usd": 2312.86,
-      "mad": 22701.41,
-      "pct": -1.83
+      "usd": 2301.57,
+      "mad": 22590.6,
+      "pct": -1.09
     }
   ],
   "fx": {
