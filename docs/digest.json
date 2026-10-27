@@ -1,69 +1,69 @@
 {
-  "generated_at": "2026-10-27T08:25:57.918069+00:00",
+  "generated_at": "2026-10-27T14:58:42.680706+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 111.33,
+      "price": 109.52,
       "currency": "USD",
-      "usd": 111.33,
-      "mad": 1094.2,
-      "pct": -3.87
+      "usd": 109.52,
+      "mad": 1076.41,
+      "pct": -5.43
     },
     {
       "name": "WTI Crude Oil",
-      "price": 102.4,
+      "price": 100.43,
       "currency": "USD",
-      "usd": 102.4,
-      "mad": 1006.43,
-      "pct": 0.63
+      "usd": 100.43,
+      "mad": 987.07,
+      "pct": -1.31
     },
     {
       "name": "Gold (per gram)",
-      "price": 128.89,
+      "price": 130.63,
       "currency": "USD",
-      "usd": 128.89,
-      "mad": 1266.78,
-      "pct": -0.73
+      "usd": 130.63,
+      "mad": 1283.88,
+      "pct": 0.61
     },
     {
       "name": "Silver (per gram)",
-      "price": 1.7,
+      "price": 1.75,
       "currency": "USD",
-      "usd": 1.7,
-      "mad": 16.71,
-      "pct": -2.13
+      "usd": 1.75,
+      "mad": 17.2,
+      "pct": 0.4
     },
     {
       "name": "S&P 500",
-      "price": 7676.77,
+      "price": 7711.36,
       "currency": "USD",
-      "usd": 7676.77,
-      "mad": 75450.37,
-      "pct": 0.7
+      "usd": 7711.36,
+      "mad": 75790.33,
+      "pct": 0.45
     },
     {
       "name": "CAC 40",
-      "price": 7818.83,
+      "price": 7896.52,
       "currency": "EUR",
-      "usd": 8754.62,
-      "mad": 86043.88,
-      "pct": -0.36
+      "usd": 8841.61,
+      "mad": 86898.83,
+      "pct": 0.63
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 79719.44,
+      "price": 80203.08,
       "currency": "USD",
-      "usd": 79719.44,
-      "mad": 783514.54,
-      "pct": -0.36
+      "usd": 80203.08,
+      "mad": 788267.95,
+      "pct": 0.25
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2312.94,
+      "price": 2330.81,
       "currency": "USD",
-      "usd": 2312.94,
-      "mad": 22732.5,
-      "pct": -0.32
+      "usd": 2330.81,
+      "mad": 22908.13,
+      "pct": 0.45
     }
   ],
   "fx": {
@@ -73,13 +73,13 @@
   "masi": [
     {
       "name": "MASI",
-      "mad": 16999.56,
-      "pct": -0.32
+      "mad": 16967.21,
+      "pct": -0.19
     },
     {
       "name": "MASI 20",
-      "mad": 1235.38,
-      "pct": -0.53
+      "mad": 1232.96,
+      "pct": -0.2
     }
   ]
 }
