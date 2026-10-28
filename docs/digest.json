@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-27T19:47:59.460709+00:00",
+  "generated_at": "2026-10-28T00:07:25.913085+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 109.38,
+      "price": 109.66,
       "currency": "USD",
-      "usd": 109.38,
-      "mad": 1075.03,
-      "pct": -5.55
+      "usd": 109.66,
+      "mad": 1077.78,
+      "pct": -5.31
     },
     {
       "name": "WTI Crude Oil",
-      "price": 99.76,
+      "price": 100.1,
       "currency": "USD",
-      "usd": 99.76,
-      "mad": 980.48,
-      "pct": -1.97
+      "usd": 100.1,
+      "mad": 983.82,
+      "pct": -1.63
     },
     {
       "name": "Gold (per gram)",
-      "price": 131.07,
+      "price": 131.06,
       "currency": "USD",
-      "usd": 131.07,
-      "mad": 1288.21,
-      "pct": 0.95
+      "usd": 131.06,
+      "mad": 1288.11,
+      "pct": 0.94
     },
     {
       "name": "Silver (per gram)",
@@ -31,39 +31,39 @@
       "currency": "USD",
       "usd": 1.75,
       "mad": 17.2,
-      "pct": 0.79
+      "pct": 0.8
     },
     {
       "name": "S&P 500",
-      "price": 7734.68,
+      "price": 7722.6,
       "currency": "USD",
-      "usd": 7734.68,
-      "mad": 76019.53,
-      "pct": 0.75
+      "usd": 7722.6,
+      "mad": 75900.8,
+      "pct": 0.6
     },
     {
       "name": "CAC 40",
-      "price": 7887.14,
+      "price": 7847.32,
       "currency": "EUR",
-      "usd": 8831.1,
-      "mad": 86795.61,
-      "pct": 0.51
+      "usd": 8786.52,
+      "mad": 86357.4,
+      "pct": 0.83
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 80701.29,
+      "price": 80659.08,
       "currency": "USD",
-      "usd": 80701.29,
-      "mad": 793164.56,
-      "pct": 0.87
+      "usd": 80659.08,
+      "mad": 792749.7,
+      "pct": 0.82
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 2348.17,
+      "price": 2343.36,
       "currency": "USD",
-      "usd": 2348.17,
-      "mad": 23078.75,
-      "pct": 1.2
+      "usd": 2343.36,
+      "mad": 23031.48,
+      "pct": 0.99
     }
   ],
   "fx": {
