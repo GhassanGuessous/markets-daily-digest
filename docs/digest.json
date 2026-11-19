@@ -1,74 +1,74 @@
 {
-  "generated_at": "2026-11-18T22:24:35.851301+00:00",
+  "generated_at": "2026-11-19T04:42:37.349824+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 88.68,
+      "price": 89.22,
       "currency": "USD",
-      "usd": 88.68,
-      "mad": 884.09,
-      "pct": -4.79
+      "usd": 89.22,
+      "mad": 888.8,
+      "pct": -4.21
     },
     {
       "name": "WTI Crude Oil",
-      "price": 81.89,
+      "price": 82.1,
       "currency": "USD",
-      "usd": 81.89,
-      "mad": 816.39,
-      "pct": -4.79
+      "usd": 82.1,
+      "mad": 817.87,
+      "pct": -4.55
     },
     {
       "name": "Gold (per gram)",
       "price": 119.85,
       "currency": "USD",
       "usd": 119.85,
-      "mad": 1194.83,
-      "pct": -3.53
+      "mad": 1193.93,
+      "pct": -3.54
     },
     {
       "name": "Silver (per gram)",
       "price": 1.45,
       "currency": "USD",
       "usd": 1.45,
-      "mad": 14.46,
-      "pct": -4.89
+      "mad": 14.44,
+      "pct": -4.6
     },
     {
       "name": "S&P 500",
       "price": 7323.63,
       "currency": "USD",
       "usd": 7323.63,
-      "mad": 73012.2,
+      "mad": 72957.27,
       "pct": -0.23
     },
     {
       "name": "CAC 40",
       "price": 8146.83,
       "currency": "EUR",
-      "usd": 8965.97,
-      "mad": 89385.39,
+      "usd": 8941.57,
+      "mad": 89075.0,
       "pct": -0.85
     },
     {
       "name": "Bitcoin (BTC)",
-      "price": 62447.2,
+      "price": 63412.61,
       "currency": "USD",
-      "usd": 62447.2,
-      "mad": 622561.12,
-      "pct": -3.77
+      "usd": 63412.61,
+      "mad": 631710.08,
+      "pct": -2.28
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 1761.0,
+      "price": 1797.37,
       "currency": "USD",
-      "usd": 1761.0,
-      "mad": 17556.11,
-      "pct": -3.4
+      "usd": 1797.37,
+      "mad": 17905.22,
+      "pct": -1.4
     }
   ],
   "fx": {
-    "USD/MAD": 9.9694,
-    "EUR/MAD": 10.9718
+    "USD/MAD": 9.9619,
+    "EUR/MAD": 10.9337
   },
   "masi": [
     {
