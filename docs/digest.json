@@ -1,69 +1,69 @@
 {
-  "generated_at": "2026-11-19T14:46:41.171017+00:00",
+  "generated_at": "2026-11-19T22:29:44.140525+00:00",
   "global": [
     {
       "name": "Brent Crude Oil",
-      "price": 90.63,
+      "price": 90.05,
       "currency": "USD",
-      "usd": 90.63,
-      "mad": 902.85,
-      "pct": -1.44
+      "usd": 90.05,
+      "mad": 897.07,
+      "pct": -2.07
     },
     {
       "name": "WTI Crude Oil",
-      "price": 83.8,
+      "price": 83.16,
       "currency": "USD",
-      "usd": 83.8,
-      "mad": 834.81,
-      "pct": 0.65
-    },
-    {
-      "name": "Gold (per gram)",
-      "price": 119.45,
-      "currency": "USD",
-      "usd": 119.45,
-      "mad": 1189.95,
-      "pct": -0.71
-    },
-    {
-      "name": "Silver (per gram)",
-      "price": 1.46,
-      "currency": "USD",
-      "usd": 1.46,
-      "mad": 14.54,
-      "pct": 0.8
-    },
-    {
-      "name": "S&P 500",
-      "price": 7393.94,
-      "currency": "USD",
-      "usd": 7393.94,
-      "mad": 73657.69,
-      "pct": 0.96
-    },
-    {
-      "name": "CAC 40",
-      "price": 8137.46,
-      "currency": "EUR",
-      "usd": 8931.28,
-      "mad": 88972.55,
+      "usd": 83.16,
+      "mad": 828.43,
       "pct": -0.12
     },
     {
-      "name": "Bitcoin (BTC)",
-      "price": 63951.75,
+      "name": "Gold (per gram)",
+      "price": 116.64,
       "currency": "USD",
-      "usd": 63951.75,
-      "mad": 637080.94,
-      "pct": 1.53
+      "usd": 116.64,
+      "mad": 1161.96,
+      "pct": -3.05
+    },
+    {
+      "name": "Silver (per gram)",
+      "price": 1.38,
+      "currency": "USD",
+      "usd": 1.38,
+      "mad": 13.75,
+      "pct": -4.81
+    },
+    {
+      "name": "S&P 500",
+      "price": 7175.83,
+      "currency": "USD",
+      "usd": 7175.83,
+      "mad": 71484.9,
+      "pct": -2.02
+    },
+    {
+      "name": "CAC 40",
+      "price": 8080.74,
+      "currency": "EUR",
+      "usd": 8869.03,
+      "mad": 88352.39,
+      "pct": -0.81
+    },
+    {
+      "name": "Bitcoin (BTC)",
+      "price": 62130.3,
+      "currency": "USD",
+      "usd": 62130.3,
+      "mad": 618935.84,
+      "pct": -1.36
     },
     {
       "name": "Ethereum (ETH)",
-      "price": 1808.54,
+      "price": 1758.97,
       "currency": "USD",
-      "usd": 1808.54,
-      "mad": 18016.49,
-      "pct": 1.9
+      "usd": 1758.97,
+      "mad": 17522.68,
+      "pct": -0.89
     }
   ],
   "fx": {
@@ -73,13 +73,13 @@
   "masi": [
     {
       "name": "MASI",
-      "mad": 17142.44,
-      "pct": -0.54
+      "mad": 16997.89,
+      "pct": -1.37
     },
     {
       "name": "MASI 20",
-      "mad": 1272.92,
-      "pct": 0.02
+      "mad": 1263.11,
+      "pct": -0.75
     }
   ]
 }
